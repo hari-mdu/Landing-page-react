@@ -211,4 +211,85 @@
     background: #acacac;
 }
 
+/* Motion effect banner*/
+.effect-banner .eb-container{
+    padding: 0 !important;
+    margin-bottom: 50px;
+}
+.effect-banner .eb-content{
+    background-color:#212121 ;
+    color:#dee0ff ;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-top: 45px;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.effect-banner span{
+    background-color: rgb(27, 25, 25);
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 2px;
+  
+}
+
+.effect-banner p{
+    margin-top: 100px;
+    font-size: 48px;
+    font-weight: 600; 
+    
+}
+
+.effect-banner .img-effect{
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+.effect-banner img{
+    padding: 0;
+    margin: 80px 50px 0;
+}
+
+
+/*  About  */
+
+
+.about .about-container{
+    margin:0 100px 30px;
+}
+
+.about .items{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px rgb(219, 219, 219) solid;
+    margin-bottom: 20px;
+}
+
+.about .content{
+    font-size: 15px;
+    padding: 30px 0;
+}
+
+.about .content h2{
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+
+.about .content p{
+    color: #646464;
+}
+
+.about a{
+    color: rgb(11, 25, 211);
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 3px rgb(219, 219, 219) solid;
+    
+}
+
 
