@@ -433,7 +433,7 @@
     padding-bottom: 25px ;
     position: relative;
     margin-right: 15px;
-   
+    
 }
 
 .industry .content:hover a{
@@ -441,7 +441,7 @@
 }
 
 .industry img{
-    width: 50px;
+    width: 50px ;
     border-radius: 50%;
     position: absolute;
     left: 0;
