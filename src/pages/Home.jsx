@@ -12,12 +12,15 @@ import Web from '../assets/img/web.PNG';
 import Mobile from '../assets/img/mobile.PNG';
 import Manage from '../assets/img/manage.PNG';
 import { ArrowLeftCircleFill, ArrowRightCircleFill } from 'react-bootstrap-icons';
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Check } from 'react-bootstrap-icons';
 import { ArrowLeftCircle, ArrowRightCircle, ArrowUpLeftCircle } from 'react-bootstrap-icons';
 import Companies from '../assets/img/companies.PNG'
 import AboutUs from './AboutUs'
+import BoxCarousel from '../components/BoxCarousel'
+import TestCarousel from '../components/TestCarousel'
+
+
 
 const Home = () => {
     return (
@@ -246,9 +249,9 @@ const Home = () => {
 
                 <div class="container-1">
                     <div class="header-1">
-                        <ArrowLeftCircleFill type='button' size={30} color='grey' className="me-3 mt-2" />
+                        {/*<ArrowLeftCircleFill type='button' size={30} color='grey' className="me-3 mt-2" />*/}
                         <h2>Your IT Challenges</h2>
-                        <ArrowRightCircleFill type='button' size={30} color='grey' className="ms-3 mt-2" />
+                        {/*<ArrowRightCircleFill type='button' size={30} color='grey' className="ms-3 mt-2" />*/}
                     </div>
                     <div class="line">
                         <p class="line-1"></p>
@@ -258,39 +261,11 @@ const Home = () => {
                     </div>
                     <div class="items">
                         
-                            <div class="content">
-                                <h2>Datacenter & Hosting</h2>
-                                <p>Our facility – Data Center – is the first in the USA that meets the strict ANSI/TIA-942 rated
-                                    4 certificate requirements for design, build and operate.</p>
-                                <div class="view">
-                                    <i class="bi bi-plus-circle"></i>
-                                    <p>View more</p>
-                                </div>
-                            </div>
-
-                            <div class="content" id="content-1">
-                                <h2>Collaboration</h2>
-                                <p>Despite modern cloud technology, your users operate in a familiar Microsoft Office
-                                    environment and benefit from broad compatibility and low-threshold access.</p>
-                                <div class="view">
-                                    <i class="bi bi-plus-circle"></i>
-                                    <p>View more</p>
-                                </div>
-                            </div>
-
-                            <div class="content" id="content-2">
-                                <h2>Cloud Platform</h2>
-                                <p>Customized cloud platform designed to improve performance, lower IT costs, and provide secure
-                                    and reliable access to your company data from any device, anytime, anywhere.</p>
-                                <div class="view">
-                                    <i class="bi bi-plus-circle"></i>
-                                    <p>View more</p>
-                                </div>
-                            </div>
-                        
-                          </div>
+                            
                       </div>
+                </div>
                   </Container>
+                  <BoxCarousel/>
             </div>
 
             <Container fluid>
@@ -347,53 +322,18 @@ const Home = () => {
         <Container fluid>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://tecnologia.vamtam.com/wp-content/uploads/2023/03/photo.png" alt=""/>
-                        <p>Tecnologia implemented such a powerful platform that we had no break in service when our
-                            employees had to work from home due to the COVID-19 pandemic. We weren’t concerned about how
-                            to shift to a remote working environment because Integris facilitated a seamless transition.
-                        </p>
-
-                        <div class="organization">
-                            <h5>Amanda Parks</h5>
-                            <p>Network Manager, Healthcare Organization</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="https://tecnologia.vamtam.com/wp-content/uploads/2023/03/nespresso-logo.png" alt=""/>
-                        <p>Tecnologia has been an outstanding partner. Their team is professional, knowledgeable and
-                            customer-service driven. Tecnologia proactive collaborative approach has been critical in
-                            helping us build an IT infrastructure that enables our success today and supports our
-                            long-term positioning strategy. </p>
-
-                        <div class="organization">
-                            <h5>John Labkins</h5>
-                            <p>Partner & CEO, Telecommunication Company</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="https://tecnologia.vamtam.com/wp-content/uploads/2023/03/logo-R.svg" alt=""/>
-                        <p>I’ve been a customer for more than a decade. Tecnologia is an example of the way Managed
-                            Services should be done. They do their very best to make sure you succeed. If there’s an
-                            issue, they step in immediately. We will continue to be a customer for years to come. </p>
-
-                        <div class="organization">
-                            <h5>Daniel Legrante</h5>
-                            <p>CIO, Restaurant Product Supplier</p>
-                        </div>
-                    </div>
+                <TestCarousel/>
                 </div>
             </div>
 
             <Container fluid class="d-flex justify-content-between">
             <div class="arrows">
-                    
+                    {/*
                     <ArrowLeftCircle size={30} type="button" data-bs-target="#carouselExampleControls"
                         data-bs-slide="prev"/>
                     <ArrowRightCircle class="ms-3" size={30} type="button" data-bs-target="#carouselExampleControls"
                         data-bs-slide="next"/>
+                        */}
                 </div>
                 <div class="reviews">
                 
@@ -445,7 +385,6 @@ const Home = () => {
 
     </div>
 
-    
     
     <Footer1/>
     <Footer2/>
