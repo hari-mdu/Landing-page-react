@@ -1,32 +1,31 @@
 import React from 'react'
 import '../css/custom.css';
-import { Container } from 'react-bootstrap';
 import Arrow from '../assets/img/form arrow.PNG'
 import { ChevronCompactRight } from 'react-bootstrap-icons';
 
 const ContactUS = () => {
   return (
-    <div class="contact">
-        <div class="sect">
-            <div class="container-1">
+    <div className="contact">
+        <div className="sect">
+            <div className="container-1">
                 <span>CONTACT US</span>
                 <h1>Partner with Us for <br/> Comprehensive IT</h1>
             </div>
-            <div class="container-2">
-                <div class="content-1">
+            <div className="container-2">
+                <div className="content-1">
                     <p>We’re happy to answer any questions you may have and help you determine which of our services
                         best fit your needs.</p>
                 </div>
 
-                <div class="content-2">
+                <div className="content-2">
                     <p>Call us at: 1-800-356-8933</p>
                 </div>
 
-                <div class="content-3">
+                <div className="content-3">
                     <p>Your benefits:</p>
                 </div>
 
-                <div class="content-4">
+                <div className="content-4">
                     <ul>
                         <li>Client-oriented</li>
                         <li>Independent</li>
@@ -37,23 +36,23 @@ const ContactUS = () => {
                     </ul>
                 </div>
 
-                <div class="content-5">
+                <div className="content-5">
                     <p>What happens next?</p>
                 </div>
 
-                <div class="content-6">
+                <div className="content-6">
 
-                    <div class="item">
+                    <div className="item">
                         <span>1</span>
                         <p>We Schedule a call at your convenience</p>
                         <ChevronCompactRight className="m-1" size={80} color='rgb(206, 206, 206)'/>
                     </div>
-                    <div class="item">
+                    <div className="item">
                         <span>2</span>
                         <p>We do a discovery and consulting meting</p>
                         <ChevronCompactRight className="m-1" size={80} color='rgb(206, 206, 206)'/>
                     </div>
-                    <div class="item">
+                    <div className="item">
                         <span>3</span>
                         <p>We prepare a proposal</p>
                     </div>
@@ -62,24 +61,24 @@ const ContactUS = () => {
             </div>
         </div>
 
-        <div class="form">
+        <div className="form">
             <form>
                 <p>Schedule a Free Consultation</p>
-                <div class="name">
-                    <div class="first">
+                <div className="name">
+                    <div className="first">
                         <label>First name</label><br/>
                         <input type="text"/>
 
                     </div>
 
-                    <div class="last">
+                    <div className="last">
                         <label>Last name</label><br/>
                         <input type="text"/>
                     </div>
                 </div>
 
 
-                <div class="container">
+                <div className="container">
                     <label>Comapny / Organization</label><br/>
                     <input type="text"/>
 
@@ -119,7 +118,7 @@ const ContactUS = () => {
             </form>
         </div>
 
-        <div class="arrow">
+        <div className="arrow">
             <img src={Arrow} alt=""/>
         </div>
 

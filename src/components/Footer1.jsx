@@ -3,9 +3,9 @@ import '../css/custom.css';
 
 const Footer1 = () => {
   return (
-    <div class="footer-1">
-        <div class="container-1">
-            <div class="content-1">
+    <div className="footer-1">
+        <div className="container-1">
+            <div className="content-1">
                 <h3>Solutions</h3>
 
                 <ul>
@@ -20,11 +20,11 @@ const Footer1 = () => {
                 </ul>
             </div>
 
-            <div class="content-2">
+            <div className="content-2">
                 <h3>Company</h3>
 
-                <div class="lists">
-                    <div class="list-1">
+                <div className="lists">
+                    <div className="list-1">
                         <ul>
                             <li><a href="">About us</a></li>
                             <li><a href="">Why us</a></li>
@@ -34,7 +34,7 @@ const Footer1 = () => {
                             <li><a href="">Reviews & Awards</a></li>
                         </ul>
                     </div>
-                    <div class="list-2">
+                    <div className="list-2">
                         <ul>
                             <li><a href="">Blog</a></li>
                             <li><a href="">Case studies</a></li>
@@ -45,10 +45,10 @@ const Footer1 = () => {
                 </div>
             </div>
 
-            <div class="content-3">
+            <div className="content-3">
                 <input type="text" placeholder="Don’t miss out updates"/>
                 <br/>
-                <div class="d-flex">
+                <div className="d-flex">
                 <input type="checkbox"/>
                 <label>I agree to the Privacy Policy and give my permission to process my personal data for the purposes
                     specified in the Privacy Policy.</label>
@@ -59,8 +59,8 @@ const Footer1 = () => {
             </div>
 
         </div>
-        <div class="container-2">
-            <img class="bg-img" src="https://tecnologia.vamtam.com/wp-content/uploads/2023/03/footer-dots.svg" alt=""/>
+        <div className="container-2">
+            <img className="bg-img" src="https://tecnologia.vamtam.com/wp-content/uploads/2023/03/footer-dots.svg" alt=""/>
             <div>
                 <a href=""><img src="https://tecnologia.vamtam.com/wp-content/uploads/2023/03/logo-footer.svg"
                         alt=""/></a>

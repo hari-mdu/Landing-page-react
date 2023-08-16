@@ -473,12 +473,15 @@
     background-color: #242627;
     color: #dee0ff;
     
+    
 }
 
 .challenges .container-fluid{
     padding: 0;
 }
-
+.challenges .container-1{
+    position: relative;
+}
 .challenges span{
     background-color: rgb(27, 25, 25);
     padding: 6px;
@@ -536,21 +539,18 @@
 }
 
 .challenges .line-1{
-    width: 280px ;
+    width: 240px ;
 }
 
 .challenges .line-2{
-    width: 460px;
+    width: 530px;
 }
 
 .challenges .line-3{
-    width: 450px;
+    width: 500px;
 }
 
-.challenges .items{
-    display: flex;
-    justify-content: space-evenly;
-}
+
 
 .challenges .content{
 
@@ -558,6 +558,7 @@
     background-color: #1f2021;
     color: white;
     padding:30px;
+    margin-left: 80px;
 }
 .challenges .content h2{
     font-size: 20px;
@@ -664,13 +665,17 @@
     margin:150px 400px;
 }
 
+.testimonials .container-fluid{
+    position: relative;
+}
+
 .testimonials img{
     width: 60px;
 }
 
 .testimonials p{
     font-size: 29px;
-    padding: 25px 0;
+    padding: 20px 0;
     color: #313452;
 }
 
@@ -1305,4 +1310,44 @@
 .footer-2 .content-2 i{
     font-size: 30px;
     
+}
+
+/*buttons*/
+
+ .custom-prev-button {
+    position: absolute;
+    top:-20px;
+    right: 850px;
+    color: aliceblue;
+}
+
+.custom-next-button{
+    position: absolute;
+    top:-20px;
+    right: 575px;
+    color: aliceblue;
+}
+
+.react-multi-carousel-list{
+    position: static !important;
+}
+
+
+
+.carousel-btn-1{
+position: absolute;
+top:450px;
+left: 0;
+color: #000;
+}
+
+.carousel-btn-2{
+    position: absolute;
+    top:450px;
+    left: 90px;
+    color: #000;
+}
+
+.carousel-inner{
+    position: static !important;
 }

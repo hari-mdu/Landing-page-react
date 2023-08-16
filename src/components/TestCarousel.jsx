@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { ArrowLeftCircle, ArrowLeftCircleFill, ArrowRightCircle, ArrowRightCircleFill, PlusCircle } from 'react-bootstrap-icons';
+import { ArrowLeftCircle, ArrowRightCircle } from 'react-bootstrap-icons';
 
 const responsive = {
   superLargeDesktop: {
@@ -31,7 +31,7 @@ const TestCarousel = () => {
                             to shift to a remote working environment because Integris facilitated a seamless transition.
                         </p>
 
-                        <div class="organization">
+                        <div className="organization">
                             <h5>Amanda Parks</h5>
                             <p>Network Manager, Healthcare Organization</p>
                         </div>
@@ -44,7 +44,7 @@ const TestCarousel = () => {
                             helping us build an IT infrastructure that enables our success today and supports our
                             long-term positioning strategy. </p>
 
-                        <div class="organization">
+                        <div className="organization">
                             <h5>John Labkins</h5>
                             <p>Partner & CEO, Telecommunication Company</p>
                         </div>
@@ -56,7 +56,7 @@ const TestCarousel = () => {
                             Services should be done. They do their very best to make sure you succeed. If there’s an
                             issue, they step in immediately. We will continue to be a customer for years to come. </p>
 
-                        <div class="organization">
+                        <div className="organization">
                             <h5>Daniel Legrante</h5>
                             <p>CIO, Restaurant Product Supplier</p>
                         </div>
@@ -108,8 +108,8 @@ const TestCarousel = () => {
 
 const CustomButtonGroup = ({ handleNext, handlePrev }) => (
   <div className="custom-button-group">
-    <ArrowLeftCircle size={30} type="button" className="custom-prev-button me-3 m-5 mb-0" onClick={handlePrev}/>
-    <ArrowRightCircle type="button" class="ms-3" size={30}  className="custom-next-button ms-3 m-5 mb-0" onClick={handleNext}/>
+    <ArrowLeftCircle size={30} type="button" className="custom-prev-button carousel-btn-1 me-3 m-5 mb-0" onClick={handlePrev}/>
+    <ArrowRightCircle type="button" size={30}  className="custom-next-button carousel-btn-2 ms-3 m-5 mb-0" onClick={handleNext}/>
   </div>
 );
 

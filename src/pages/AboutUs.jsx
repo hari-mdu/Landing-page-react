@@ -8,21 +8,22 @@ import Unified from '../assets/img/unified.PNG'
 import ContactUS from '../components/ContactUS'
 import Footer1 from '../components/Footer1'
 import Footer2 from '../components/Footer2'
+import AboutCarousel from '../components/AboutCarousel'
 
 const AboutUs = () => {
   return (
     <div>
         <Header/>
 
-        <div class='about-us'>
+        <div className='about-us'>
             <Container className='about-container'>
-                <div class="about-head">
+                <div className="about-head">
                     <span>ABOUT</span>
                     <h1>Dedicated to delivering excellence</h1>
                     <p>Everyone has a story. Here is ours.</p>
                 </div>
 
-                <div class="about-content row">
+                <div className="about-content row">
                     <div className='about-img col'>
                         <img src='https://tecnologia.vamtam.com/wp-content/uploads/2023/03/charlesdeluvio-Lks7vei-eAg-unsplash.jpg'></img>
                     </div>
@@ -32,7 +33,7 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <div class="about-content row">
+                <div className="about-content row">
                     <div className='item col '>
                         <h5>Mission</h5>
                         <p>At Tecnologia, we’re on a mission to bring together the personal service of local IT providers with the power of a national network. We believe that’s simpler than it sounds. Our offices offer high-touch IT services that clients love from highly experienced local team members.</p>
@@ -43,13 +44,13 @@ const AboutUs = () => {
                     
                 </div>
 
-                <div class="about-content row">
+                <div className="about-content row">
                     <div className='about-img col'>
                         <img src='https://tecnologia.vamtam.com/wp-content/uploads/2023/03/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg'></img>
                     </div>
                     <div className='item col offset-2'>
                         <h5>We are global</h5>
-                        <p>Our national network allows us to offer best-in-class services like dedicated vCIOs, specialized security and compliance advisory services, a 24/7 help desk, and more.</p>
+                        <p>Our national network allows us to offer best-in-className services like dedicated vCIOs, specialized security and compliance advisory services, a 24/7 help desk, and more.</p>
                     </div>
                 </div>
 
@@ -61,12 +62,12 @@ const AboutUs = () => {
             </Container>
         </div>
 
-        <div class="effect-banner">
+        <div className="effect-banner">
             <Container className='eb-container'>
-                <div class="eb-content">
+                <div className="eb-content">
                     <span>OUR CORE VALUES</span>
                     <p className='col-9'>Our culture is built around five key attributes that differentiate us from our competition.</p>
-                    <div class='img-effect'>
+                    <div className='img-effect'>
                         <img src='https://tecnologia.vamtam.com/wp-content/uploads/2023/03/shape-dots.svg'></img>
                     </div>
                 </div>
@@ -74,26 +75,26 @@ const AboutUs = () => {
             </Container>
           </div>
 
-          <div class='about'>
-            <Container  class='about-container'>
+          <div className='about'>
+            <Container  className='about-container'>
           
-                <div class='items row border-0'>
-                    <div class="content col">
+                <div className='items row border-0'>
+                    <div className="content col">
                         <img src={Passionate} alt=""/>
                         <h2>Passionate</h2>
                         <p>We are intensely enthusiastic about providing a superior experience.</p>
                     </div>
-                    <div class="content col offset-1">
+                    <div className="content col offset-1">
                         <img src={Respectful} alt=""/>
                         <h2>Respectful</h2>
                         <p>We are polite and kind to one another, even when it gets tough.</p>
                     </div>
-                    <div class="content col offset-1">
+                    <div className="content col offset-1">
                         <img src={Ownership} alt=""/>
                         <h2>Ownership</h2>
                         <p>We are empowered to do our jobs and work towards a common goal.</p>
                     </div>
-                    <div class="content col offset-1">
+                    <div className="content col offset-1">
                         <img src={Unified} alt=""/>
                         <h2>Unified</h2>
                         <p>We work as a team and trust each other to create a seamless experience.</p>
@@ -104,10 +105,14 @@ const AboutUs = () => {
 
           <Container fluid className='team-meet bg-info'>
           <h2>A team built on experience</h2>
-          <p>We’re continuing to build our network nationally, bringing together a vibrant team with best-in-class service and technical skills alike. With more than 800 employees across the US, our team is growing fast.</p>
-          <a href='#' class="btn">Meet the team</a>
+          <p>We’re continuing to build our network nationally, bringing together a vibrant team with best-in-className service and technical skills alike. With more than 800 employees across the US, our team is growing fast.</p>
+          <a href='#' className="btn">Meet the team</a>
           <img src='https://tecnologia.vamtam.com/wp-content/uploads/2023/03/bg-dot-shape.svg'/>
           </Container>
+
+            <Container className='my-5 text-center'>
+                <AboutCarousel/>
+            </Container>
 
           <Container>
             <div className='together row'>
@@ -122,6 +127,8 @@ const AboutUs = () => {
                     <img src='https://tecnologia.vamtam.com/wp-content/uploads/2023/03/campaign-creators-gMsnXqILjp4-unsplash.jpg'/>
                 </div>
             </div>
+
+            
           </Container>
 
           <ContactUS/>
