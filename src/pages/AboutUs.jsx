@@ -9,6 +9,7 @@ import ContactUS from '../components/ContactUS'
 import Footer1 from '../components/Footer1'
 import Footer2 from '../components/Footer2'
 import AboutCarousel from '../components/AboutCarousel'
+import Timeline from '../components/Timeline'
 
 const AboutUs = () => {
   return (
@@ -17,6 +18,7 @@ const AboutUs = () => {
 
         <div className='about-us'>
             <Container className='about-container'>
+                <Timeline/>
                 <div className="about-head">
                     <span>ABOUT</span>
                     <h1>Dedicated to delivering excellence</h1>
@@ -53,6 +55,8 @@ const AboutUs = () => {
                         <p>Our national network allows us to offer best-in-className services like dedicated vCIOs, specialized security and compliance advisory services, a 24/7 help desk, and more.</p>
                     </div>
                 </div>
+
+                
 
                 <div className='description'>
                     <span>WHY US</span>

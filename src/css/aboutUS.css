@@ -2,6 +2,7 @@
 
 .about-us .about-container{
 padding: 20px 250px;
+position: relative;
 }
 
 
@@ -163,4 +164,29 @@ padding: 20px 250px;
 .together .btn:hover{
     background-color: black;
     color: white;
+}
+
+
+/* TImeline */
+
+.vertical-timeline--two-columns .vertical-timeline-element-icon{
+    width: 40px !important;
+    height: 40px !important;
+    left: 50%;
+    margin-left: -20px !important;
+}
+
+.vertical-timeline{
+    position: absolute !important;
+    left: 75px;
+    top:300px
+}
+
+.scroll-icon{
+    position: absolute ;
+    top:300px;
+    left:48.5%;
+    color: white;
+    background-color: rgb(11, 25, 211);
+    border-radius: 50%;
 }
